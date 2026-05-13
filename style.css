@@ -67,6 +67,7 @@ input{
 }
 
 #adicionar{
+  cursor: pointer;
   padding: 12px 15px;
   margin: 10px;
   border-radius: 25px;
@@ -75,4 +76,29 @@ input{
   font-family: "Inter",sans-serif;
   font-weight: bolder;
   font-size: 15px;
+}
+
+.card-numeros{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EFEDED;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 10px 50px;
+  width: fit-content;
+}
+
+.card-numeros h3{
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.card-numeros h1{
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
 }
