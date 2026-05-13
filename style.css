@@ -1,33 +1,22 @@
 body {
   margin: 0;
   height: 100vh;
-  background: #eee;
 }
 
-.logo {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 500px;
-  font-weight: bold;
-  font-family: "Inter",sans-serif;
-  animation: mover 2s ease forwards;
-  animation-delay: 1s;
+h1{
+  font-family: "Inter", sans-serif;
+  font-size: xx-large;
 }
 
-@keyframes mover {
-  0% {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+h2{
+  font-family: "Inter", sans-serif;
+  grid-column: 1 / 5;
+}
 
-  100% {
-    top: 20px;
-    left: 20px;
-    transform: translate(0, 0);
-    font-size: 15px;
-  }
+p{
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
 }
 
 nav {
@@ -43,8 +32,8 @@ nav {
   padding-right: 50px;
 }
 
-button{
-  padding: 12px 30px;
+.botoes button{
+  padding: 12px 20px;
   margin: 10px;
   border-radius: 25px;
   color: #FFFFFF;
@@ -52,4 +41,38 @@ button{
   font-family: "Inter",sans-serif;
   font-weight: bolder;
   font-size: 20px;
+}
+
+input{
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  background-color: #EFEDED;
+  border-width: .8px;
+  width: 70px;
+  height: 25px;
+  border-radius: 50px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.info-numeros{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 150px; 
+}
+
+#adicionar{
+  padding: 12px 15px;
+  margin: 10px;
+  border-radius: 25px;
+  color: #FFFFFF;
+  background-color: #0F0505;
+  font-family: "Inter",sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
 }

@@ -9,12 +9,24 @@
 </head>
 <body>
     <nav>
-        <div class="logo">🎲 SORTEIO</div>
+        <div class="logo">
+            <h1>🎲 SORTEIO</h1>
+            <div class="info-numeros">
+                <h2>Entre</h2>
+                <input type="number" id="inicio">
+                <p>e</p>
+                <input type="number" id="fim">
+                <button id="adicionar">ADICIONAR</button>
+            </div>
+        </div>
+        
         <div class="botoes">
             <button class="sorteio" id="numeros">Números</button>
             <button class="sorteio" id="nomes">Nomes</button>
         </div>
     </nav>
+
+    <div class="card-numeros"></div>
     <script src="script.js"></script>
 </body>
 </html>
